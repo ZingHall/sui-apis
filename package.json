@@ -1,6 +1,6 @@
 {
     "name": "@zinghall/sui-rpc-v2-ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript client and types for Sui RPC v2",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
