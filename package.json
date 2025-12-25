@@ -1,0 +1,23 @@
+{
+    "name": "@zinghall/sui-rpc-v2-ts",
+    "version": "1.0.0",
+    "description": "TypeScript client and types for Sui RPC v2",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "generate": "buf generate",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "@protobuf-ts/runtime": "^2.11.1",
+        "@protobuf-ts/runtime-rpc": "^2.11.1"
+    },
+    "devDependencies": {
+        "@protobuf-ts/plugin": "^2.11.1",
+        "typescript": "^5.3.3"
+    }
+}

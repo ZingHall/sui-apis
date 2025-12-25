@@ -1,0 +1,6 @@
+version: v2
+plugins:
+  - local: protoc-gen-ts
+    out: src
+    opt:
+      - long_type_bigint
